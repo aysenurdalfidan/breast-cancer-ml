@@ -116,6 +116,7 @@ Accuracy: 98.25%
 Precision: 0.97 (Benign), 1.00 (Malignant)
 Recall: 1.00 (Benign), 0.95 (Malignant)
 F1-score: 0.99 (Benign), 0.98 (Malignant)
+```
 
 ---
 
