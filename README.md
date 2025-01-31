@@ -1,0 +1,2 @@
+# breast-cancer-ml
+ This project applies machine learning techniques to classify breast cancer as benign or malignant based on diagnostic features. The dataset is analyzed using Python libraries such as Scikit-learn, Pandas, and Matplotlib. The project includes data preprocessing, model training, evaluation, and visualization. Tags: Machine Learning, Breast Cancer Classification, Python, Scikit-learn, Data Science, Healthcare AI
