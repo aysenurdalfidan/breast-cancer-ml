@@ -37,11 +37,11 @@ Breast cancer is a common disease. Early detection improves survival rates. This
 ## Visualisations
 
 ### Class Distribution
-     ![Class Distribution](images/class-distribution.png)
+![Class Distribution](images/class-distribution.png)
 The dataset is **balanced**, with 357 benign cases and 212 malignant cases.
 
 ### Correlation Matrix
-     ![Correlation Matrix with the Diagnosis Variable](images/corr_matrix.png)
+![Correlation Matrix with the Diagnosis Variable](images/corr_matrix.png)
 
 The top correlated features with the diagnosis are:
 
@@ -56,7 +56,7 @@ The top correlated features with the diagnosis are:
 - **Concavity\_mean (0.69)**
 
 ### Feature Distributions
-     ![Feature Distributions](images/feature_distributions.png)
+![Feature Distributions](images/feature_distributions.png)
 Distinct separation is observed in some features between benign and malignant cases.
 
 ---
@@ -71,17 +71,15 @@ Distinct separation is observed in some features between benign and malignant ca
 
 ### Cross-Validation Performance
 
-
-
 | Model                  | CV Mean Accuracy | CV Std Dev |
 | ---------------------- | ---------------- | ---------- |
 | Logistic Regression    | 0.9736           | 0.0149     |
 | Random Forest          | 0.9560           | 0.0399     |
 | Support Vector Machine | 0.9714           | 0.0226     |
 
+![Cross-Validation Performance](images/cross_validation_performance.png)
+
 ### Model Performance Comparison
-
-
 
 | Model                  | Train Accuracy | Test Accuracy | ROC-AUC Test |
 | ---------------------- | -------------- | ------------- | ------------ |
@@ -89,7 +87,7 @@ Distinct separation is observed in some features between benign and malignant ca
 | Random Forest          | 1.0000         | 0.9737        | 0.9972       |
 | Support Vector Machine | 0.9780         | 0.9825        | 0.9963       |
 
-
+![Model Performance Comparison](images/model_performance_comparison.png)
 
 ### Classification Reports
 
